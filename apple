@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .about, .contact {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <p>Welcome to my personal website!</p>
+
+        <div class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm [Your Name]. This is my personal website where you can learn more about me and get in touch.</p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>Follow me on <a href="#">Social Media</a></p>
+        </div>
+    </div>
+</body>
+</html>
